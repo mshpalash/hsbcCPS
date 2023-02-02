@@ -22,6 +22,7 @@ namespace WebApiApp.Controllers
         }
 
         // POST api/values
+        [HttpPost]
         public void Post([FromBody]string value)
         {
         }
